@@ -30,7 +30,6 @@ Resources:
     Properties:
       ImageId: ami-0729e439b6769d6ab
       InstanceType: t2.micro
-      KeyName: bationhost_key 
       BlockDeviceMappings:
           - DeviceName: "/dev/sdk"
             Ebs:
@@ -96,7 +95,6 @@ Resources:
           cd /var/www/html
           echo "Udacity Demo Web Server Up and Running!" > index.html       
       ImageId: ami-0729e439b6769d6ab
-      KeyName: www_keypair
       SecurityGroups:
       - Ref: WebServerSecurityGroup
       InstanceType: t3.medium
