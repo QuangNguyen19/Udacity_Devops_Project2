@@ -1,0 +1,14 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "Deploy a high-availability web app using CloudFormation"
+	},
+	{
+		"ParameterKey": "EnvironmentNameOutput",
+		"ParameterValue": "Udacity-C2-Project-Ouput"
+	},
+	{
+		"ParameterKey": "MyPublicIP",
+		"ParameterValue": "27.74.66.211/32"
+	}
+]
